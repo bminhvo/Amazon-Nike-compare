@@ -1,0 +1,8 @@
+*.pyc
+amazon.html
+nike.html
+amazon-average.json
+amazon-output.json
+nike-average.json
+nike-bar.json
+nike-output.json

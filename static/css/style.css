@@ -1,0 +1,106 @@
+body {
+  min-height: 100%;
+}
+.mainBody {
+  background-color: #fff;
+  padding-bottom: 50px;
+}
+.navbar {
+  background-color:#232f3e !important;
+  border-radius: 0px !important;
+  text-align: center !important;
+  padding: 5px 15px;
+  margin-bottom: 20px;
+}
+.navHeader {
+  font-weight: 700 !important;
+  color: white !important;
+  letter-spacing: -1px;
+  font-size: 25px;
+}
+.md-headline{
+  font-weight: 700 !important;
+  letter-spacing: -1px;
+  font-size: 20px;
+}
+.right {
+  padding: 10px 0;
+  text-align: right;
+  color: white !important;
+  font-size: 15px;
+}
+.form{
+  margin-bottom: 20px;
+}
+p {
+  font-size: 16px;
+}
+
+.average-price {
+  color: #13af90;
+  font-weight: 700;
+}
+
+.loader {
+  margin: auto;
+  padding: 50px;
+  display: block;
+}
+.test{height:0px; width:100%; position:relative; border-top:1px solid gray;}
+.middle {
+  margin: auto;
+  display: block;
+}
+.image {
+  width: 80%;
+  height: 80%;
+}
+
+.keyword {
+  width: 50% !important;
+}
+
+.price {
+  color: red;
+  font-size: 16px;
+}
+
+.rating {
+  color: #ffbb28;
+  font-size: 18px;
+}
+
+ul {
+  padding-left: 0;
+}
+/*To remove the space inserted by li during ng-repeat:*/
+ul li {
+  display: block;
+}
+md-card-title {
+  padding: 14px 16px 6px !important;
+}
+img {
+  padding: 5px 5px 5px !important;
+}
+.col-width {
+  padding-right: 3px !important;
+  padding-left: 3px !important;
+}
+
+/*D3 bar*/
+.bar {
+  fill: steelblue;
+}
+.bar:hover{
+  fill: brown;
+}
+.axis {
+  font: 10px sans-serif;
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
